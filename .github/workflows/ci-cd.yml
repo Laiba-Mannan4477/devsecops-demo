@@ -81,7 +81,7 @@ jobs:
     needs: [build]
     env:
       REGISTRY: ghcr.io
-      IMAGE_NAME: i-am-laiba-mannan4477/devsecops-demo
+      IMAGE_NAME: iam-laiba-mannan4477/devsecops-demo
 
     outputs:
       image_tag: ${{ steps.set_output.outputs.image_tag }}
